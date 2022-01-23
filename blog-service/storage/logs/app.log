@@ -1,0 +1,137 @@
+2021/12/01 20:07:15 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CreateTag err: Error 1054: Unknown column 'created_by' in 'field list'","time":1638360435569670400}
+2021/12/01 20:10:59 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CreateTag err: Error 1054: Unknown column 'created_by' in 'field list'","time":1638360659227261700}
+2021/12/02 19:47:56 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638445676753247200}
+2021/12/02 19:49:03 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638445743990790200}
+2021/12/02 19:53:45 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638446025134479800}
+2021/12/02 19:53:59 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638446039385366800}
+2021/12/02 19:53:59 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638446039761886100}
+2021/12/02 19:54:09 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638446049339905700}
+2021/12/02 19:55:20 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638446120038445600}
+2021/12/02 20:09:02 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638446942310929700}
+2021/12/02 20:11:39 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638447099645631700}
+2021/12/02 20:12:31 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:AppSecret为必填字段,AppKey为必填字段","time":1638447151585571700}
+2021/12/02 20:14:15 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638447255605469100}
+2021/12/02 20:14:29 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638447269043896800}
+2021/12/02 20:14:30 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638447270118529100}
+2021/12/02 20:14:30 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638447270468471100}
+2021/12/02 20:14:30 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638447270783885400}
+2021/12/02 20:18:54 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.GenrateToken err: key is of invalid type","time":1638447534007376800}
+2021/12/02 20:19:08 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638447548500640100}
+2021/12/02 20:19:26 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.GenrateToken err: key is of invalid type","time":1638447566006270500}
+2021/12/02 20:20:46 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638447646893777500}
+2021/12/02 20:22:35 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638447755074750600}
+2021/12/02 20:23:01 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638447781479815900}
+2021/12/02 20:23:11 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638447791606970100}
+2021/12/02 20:23:22 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.GenrateToken err: key is of invalid type","time":1638447802280165500}
+2021/12/02 20:24:01 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.GenrateToken err: key is of invalid type","time":1638447841653441900}
+2021/12/02 20:24:22 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638447862483643300}
+2021/12/02 20:24:39 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638447879053392300}
+2021/12/02 20:24:52 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638447892898212200}
+2021/12/02 20:32:05 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638448325445070300}
+2021/12/02 20:32:06 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638448326603508800}
+2021/12/02 20:32:07 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638448327509112100}
+2021/12/02 20:41:24 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:AppKey为必填字段,AppSecret为必填字段","time":1638448884484327000}
+2021/12/02 20:41:40 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.GenrateToken err: key is of invalid type","time":1638448900060294200}
+2021/12/02 21:16:51 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.GenrateToken err: key is of invalid type","time":1638451011958407700}
+2021/12/02 21:17:06 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638451026981386000}
+2021/12/02 21:17:20 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638451040614534300}
+2021/12/02 21:17:35 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638451055485986500}
+2021/12/02 21:17:49 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638451069169067800}
+2021/12/02 21:18:40 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638451120691772300}
+2021/12/02 21:19:28 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638451168430847100}
+2021/12/04 14:50:38 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1638600638564727200}
+2021/12/11 21:02:58 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1639227778853709200}
+2021/12/11 21:03:10 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1639227790607490800}
+2021/12/11 21:04:35 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1639227875498192700}
+2021/12/11 21:05:12 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1639227912847137700}
+2021/12/11 21:08:20 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1639228100637908200}
+2021/12/12 10:14:38 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1639275278511168000}
+2021/12/12 10:14:40 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1639275280570806300}
+2021/12/12 11:00:30 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: ","time":1639278030155219000}
+2021/12/12 11:01:46 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: ","time":1639278106126916300}
+2021/12/14 20:15:03 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1639484103226840900}
+2021/12/22 15:17:32 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1640157452059032400}
+2021/12/22 16:04:54 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: ","time":1640160294744421800}
+2021/12/22 20:12:40 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1640175160356407300}
+2021/12/22 20:12:55 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: ","time":1640175175622611100}
+2021/12/22 20:13:10 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: ","time":1640175190882369000}
+2021/12/22 20:17:43 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: ","time":1640175463013981600}
+2021/12/22 20:18:03 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: ","time":1640175483198187600}
+2021/12/22 20:18:54 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: ","time":1640175534615968000}
+2021/12/22 20:19:13 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: CoverImageUrl为必填字段,CreatedBy为必填字段,TagID为必填字段,Title长度必须至少为2个字符","time":1640175553436489200}
+2021/12/22 20:35:13 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1640176513478548900}
+2021/12/22 20:35:38 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1640176538453882000}
+2021/12/22 20:35:45 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1640176545502821600}
+2021/12/22 20:35:47 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1640176547463509100}
+2021/12/22 20:35:47 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1640176547835815900}
+2021/12/22 20:35:48 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1640176548246164700}
+2021/12/22 20:36:16 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1640176576403581900}
+2021/12/22 20:42:24 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1640176944498539600}
+2021/12/22 20:43:34 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1640177014068502400}
+2021/12/22 20:45:40 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1640177140272879600}
+2021/12/22 20:45:42 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1640177142134503100}
+2021/12/22 20:47:59 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1640177279433968700}
+2021/12/22 20:52:52 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: CoverImageUrl为必填字段,CreatedBy为必填字段,TagID为必填字段","time":1640177572097849300}
+2021/12/22 20:53:02 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: ","time":1640177582004360900}
+2021/12/22 20:53:07 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1640177587709225700}
+2021/12/22 20:54:02 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1640177642591496300}
+2021/12/22 20:54:03 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1640177643782687000}
+2021/12/22 20:54:04 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1640177644214926100}
+2021/12/22 20:54:04 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1640177644568735600}
+2021/12/22 20:54:35 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1640177675397251400}
+2021/12/22 21:22:33 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1640179353160394200}
+2021/12/22 21:22:55 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1640179375688023000}
+2021/12/22 21:23:08 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1640179388144863400}
+2021/12/22 21:25:15 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1640179515581168200}
+2021/12/22 21:25:27 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1640179527611676100}
+2021/12/22 21:25:39 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1640179539833737400}
+2021/12/22 21:29:27 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1640179767693418100}
+2021/12/23 10:43:29 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1640227409396756600}
+2021/12/23 16:06:32 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1640246792981687100}
+2021/12/23 16:13:10 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1640247190167694300}
+2021/12/23 16:13:52 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1640247232499027000}
+2022/01/04 16:42:56 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1641285776650179100}
+2022/01/04 16:43:24 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1641285804640350500}
+2022/01/04 19:40:11 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1641296411475877300}
+2022/01/04 20:46:44 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1641300404029764300}
+2022/01/04 20:46:58 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1641300418971637700}
+2022/01/04 20:47:12 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1641300432456607600}
+2022/01/04 20:47:31 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1641300451936056700}
+2022/01/04 20:48:05 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1641300485311051600}
+2022/01/04 20:48:32 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1641300512044230100}
+2022/01/04 20:48:32 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1641300512967281200}
+2022/01/04 20:48:33 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1641300513303137100}
+2022/01/04 20:48:33 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1641300513636483900}
+2022/01/04 20:48:55 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1641300535576588800}
+2022/01/04 20:49:42 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1641300582222627700}
+2022/01/04 20:49:57 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1641300597723459800}
+2022/01/04 20:50:02 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1641300602798085400}
+2022/01/04 20:51:26 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs:","time":1641300686270394900}
+2022/01/04 20:56:57 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1641301017582136600}
+2022/01/04 20:57:16 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1641301036028218100}
+2022/01/04 20:58:30 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1641301110502553900}
+2022/01/04 20:59:07 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1641301147129292100}
+2022/01/04 20:59:17 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1641301157874249100}
+2022/01/04 20:59:36 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1641301176099271500}
+2022/01/04 20:59:59 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1641301199096315500}
+2022/01/04 21:00:22 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1641301222818057600}
+2022/01/04 21:00:36 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1641301236355140800}
+2022/01/05 16:28:05 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1641371285818646900}
+2022/01/05 16:28:11 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1641371291044777800}
+2022/01/05 16:28:28 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1641371308676288400}
+2022/01/05 16:30:09 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"svc.CheckAuth err: auth info does not exist.","time":1641371409221613300}
+2022/01/05 16:31:24 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.GenrateToken err: key is of invalid type","time":1641371484479584900}
+2022/01/05 17:02:12 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.GenrateToken err: key is of invalid type","time":1641373332760366600}
+2022/01/05 19:51:34 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.GenrateToken err: key is of invalid type","time":1641383494493672000}
+2022/01/05 20:11:03 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.GenrateToken err: key is of invalid type","time":1641384663433954800}
+2022/01/05 20:57:33 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.GenrateToken err: key is of invalid type","time":1641387453531561300}
+2022/01/05 20:57:39 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.GenrateToken err: key is of invalid type","time":1641387459286906700}
+2022/01/05 20:58:28 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.GenrateToken err: key is of invalid type","time":1641387508974645300}
+2022/01/05 20:58:43 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: TagID为必填字段,CoverImageUrl为必填字段,CreatedBy为必填字段","time":1641387523187799900}
+2022/01/05 21:27:08 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.GenrateToken err: key is of invalid type","time":1641389228516686200}
+2022/01/10 10:32:44 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.GenrateToken err: key is of invalid type","time":1641781964067683000}
+2022/01/11 17:15:18 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.GenrateToken err: key is of invalid type","time":1641892518001701400}
+2022/01/11 19:17:29 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: Name为必填字段","time":1641899849080185600}
+2022/01/11 19:20:58 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.BindAndValid errs: Name长度必须至少为3个字符","time":1641900058481642200}
+2022/01/11 19:34:45 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.GenrateToken err: key is of invalid type","time":1641900885510229300}
+2022/01/11 20:07:49 {"callers":["D:/gocode/golang编程之旅/blog-service/main.go: 31 main.init.0"],"level":"error","message":"app.GenrateToken err: key is of invalid type","time":1641902869461237200}

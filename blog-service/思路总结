@@ -1,0 +1,44 @@
+目录结构解析:
+--blog-service
+----configs     配置文件
+----docs        文档集合  运行configs的.yaml文件可以生成
+----global      全局变量
+----internal    内部模块文件夹
+-------dao          数据访问层
+-------middleware   HTTP中间件文件夹
+-------model        模型层，存放model对象
+-------routers      路由相关逻辑
+-------service      项目核心业务逻辑
+----pkg         项目相关的模块包
+----storages    项目生成的临时文件
+----scripts     各类构建、安装、分析等操作的脚本
+----third_party 第三方的资源工具
+
+routers接收请求------到service进行参数的校验-----service层对接收的数据进行解析，传入dao层------
+dao层再将数据传入model进行操作------model层对数据库进行操作
+
+1.model文件夹
+    先创建所需表的字段对象，共用字段(model.go)、文章表(article.go)、标签表(tag.go)、文章标签关联表(article_tag.go)的字段编写
+2.routers----编写路由:完成对两个表的增删改查
+标签表:
+    功能:       新增标签        删除指定标签        更新指定标签        获取标签列表
+    HTTP方法:   POST            DELETE              PUT                 GET
+    路径:       /tags           /tags/:id           /tags/:id           /tags
+文章表:
+    功能:       新增文章        删除指定文章        更新指定文章        获取指定文章        获取文章列表
+    HTTP方法:   POST            DELETE              PUT                 GET                GET
+    路径:       /articles       /articles/:id       /articles/:id      /articles/:id       /articles/:id
+3.pkg-----编写公共组件:基础组件，没有强业务属性，但是串联着整个应用程序   
+    本项目示例:
+    1.错误码标准化(errcode):与不同客户端传输数据时，公认返回的错误码
+    2.配置管理(setting):对客户端进行配置的规定(记得定义全局变量将其与客户端关联)
+    3.数据库连接(model中的NewDBEngine函数):编写与数据库连接的组件
+    4.日志写入(logger):日志分级--日志的标准化--日志格式化输出--日志分级输出
+    5.响应处理(convert):对客户端返回处理的结果
+4.接口文档
+    统一接口的形式(swagger)
+    写入注解--根据注解生成api所需的文件(docs.go)
+5.接口校验
+    针对标签和文章传入参数的校验
+6.业务逻辑
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

@@ -1,0 +1,53 @@
+#配置文件的设置，利用viper来解析，生成docs下的文件
+
+#服务配置:设置gin的运行模式，默认的http的监听端口，允许读取和写入的最大持续时间
+Server:
+  RunMode: debug
+  HttpPort: 8000
+  ReadTimeOut: 60
+  WriteTimeOut: 60
+
+#应用配置:设置默认每页的数量，所允许的最大每页数量，以及默认的应用日志储存路径
+App: 
+  DefaultPageSize: 10
+  MaxPageSize: 100
+  LogSavePath: storage/logs
+  LogFileName: app
+  LogFileExt: .log
+  UploadSavePath: storage/uploads   #上传文件的最终保存目录
+  UploadServerUrl: http://127.0.0.1:8000/static   #上传文件后用于展示的文件服务地址
+  UploadImageMaxSize: 5  #mb 上传文件所允许的最大空间大小
+  UploadImageAllowExts:    # 上传文件所允许的文件后缀
+    - .jpg
+    - .jpeg
+    - .png
+
+#数据库的配置，主要是连接实例所必须的基础参数
+Database: 
+  DBType: mysql
+  Username: zz
+  PassWord: 123
+  Host: 127.0.0.1:3306
+  DBName: blog_service
+  TablePrefix: blog_
+  Charset: utf8
+  ParseTime: True
+  MaxIdleConns: 10
+  MaxOpenConns: 30
+
+#鉴权
+JWT:
+ Secret: eddycjy  #密匙
+ Issuer: blog-service
+ Expire: 7200
+
+#邮箱配置
+Email:
+ Host: smtp.qq.com
+ Port: 465
+ UserName: 564174709@qq.com
+ Password: kangkang971020
+ IsSSL: true
+ From: 564174709@qq.com
+ To: 
+    -564174709@qq.com
