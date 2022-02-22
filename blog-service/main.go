@@ -6,12 +6,19 @@ import (
 	"blog-service/internal/routers"
 	"blog-service/pkg/logger"
 	"blog-service/pkg/setting"
+	"flag"
 	"log"
 	"net/http"
 	"time"
 
 	"github.com/gin-gonic/gin"
 	"gopkg.in/natefinch/lumberjack.v2"
+)
+
+var (
+	port    string
+	runMode string
+	config  string
 )
 
 func init() {
@@ -32,6 +39,8 @@ func init() {
 	if err != nil {
 		log.Fatalf("init.setupLogger err:%v", err)
 	}
+
+	setupFlag()
 }
 
 // @title 博客系统
@@ -44,7 +53,7 @@ func main() {
 	//logger:输出请求日志，并标准化日志的格式
 	//Recovery:异常捕获,防止出现panic导致服务崩溃
 	// r := gin.Default()  //返回路由引擎
-	// r.GET("/ping", func(c *gin.Context) {
+	// r.GET("/ping", func(c *gin.Context) {              
 	// 	c.JSON(200, gin.H{"message": "pong"})
 	// })
 	// r.Run()
@@ -125,6 +134,15 @@ func setupLogger() error {
 		MaxAge:    10,   //最长保留时间是10天
 		LocalTime: true, //时间格式为本地时间
 	}, "", log.LstdFlags).WithCaller(2)
+
+	return nil
+}
+
+func setupFlag() error {
+	flag.StringVar(&port, "port", "", "启动端口")
+	flag.StringVar(&runMode, "mode", "", "启动模式")
+	flag.StringVar(&config, "config", "configs/", "指定要使用的配置文件路径")
+	flag.Parse()
 
 	return nil
 }

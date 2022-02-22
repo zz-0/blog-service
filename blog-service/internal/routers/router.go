@@ -40,7 +40,6 @@ func NewRouter() *gin.Engine {
 	r.Use(middleware.ContextTime(60 * time.Second))
 	r.Use(middleware.Translations())
 	//r.Use()
-	r.Use(middleware.Translations())
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 
 	article := v1.NewArticle() //获取文章结构体
@@ -53,7 +52,7 @@ func NewRouter() *gin.Engine {
 
 	//业务接口的基础编码
 	apivl := r.Group("/api/v1")
-	apivl.Use() //middleware.JWT()
+	apivl.Use(middleware.JWT())
 	{
 		apivl.POST("/tags", tag.Create)
 		apivl.DELETE("/tags/:id", tag.Delete)
