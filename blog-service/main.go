@@ -7,6 +7,7 @@ import (
 	"blog-service/pkg/logger"
 	"blog-service/pkg/setting"
 	"flag"
+	"fmt"
 	"log"
 	"net/http"
 	"strings"
@@ -20,6 +21,11 @@ var (
 	port    string
 	runMode string
 	config  string
+
+	isVersion    bool
+	buildTime    string
+	buildVersion string
+	gitCommitID  string
 )
 
 func init() {
@@ -49,6 +55,13 @@ func init() {
 // @description 张震的第一个项目
 // @termsOfService 储存仓库
 func main() {
+
+	if isVersion {
+		fmt.Printf("build_time:%s\n", buildTime)
+		fmt.Printf("build_Version:%s\n", buildVersion)
+		fmt.Printf("git_commit_id:%s\n", gitCommitID)
+		return
+	}
 
 	// 尝试程序段
 	//logger:输出请求日志，并标准化日志的格式
@@ -150,6 +163,7 @@ func setupFlag() error {
 	flag.StringVar(&port, "port", "", "启动端口")
 	flag.StringVar(&runMode, "mode", "", "启动模式")
 	flag.StringVar(&config, "config", "configs/", "指定要使用的配置文件路径")
+	flag.BoolVar(&isVersion, "version", false, "编译信息")
 	flag.Parse()
 
 	return nil
