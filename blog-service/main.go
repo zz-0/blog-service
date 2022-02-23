@@ -9,6 +9,7 @@ import (
 	"flag"
 	"log"
 	"net/http"
+	"strings"
 	"time"
 
 	"github.com/gin-gonic/gin"
@@ -53,7 +54,7 @@ func main() {
 	//logger:输出请求日志，并标准化日志的格式
 	//Recovery:异常捕获,防止出现panic导致服务崩溃
 	// r := gin.Default()  //返回路由引擎
-	// r.GET("/ping", func(c *gin.Context) {              
+	// r.GET("/ping", func(c *gin.Context) {
 	// 	c.JSON(200, gin.H{"message": "pong"})
 	// })
 	// r.Run()
@@ -74,41 +75,48 @@ func main() {
 
 //配置初始化(详情见yaml文件)
 func setupSetting() error {
-	setting, err := setting.NewSetting()
+	// setting, err := setting.NewSetting()
+	s, err := setting.NewSetting(strings.Split(config, ",")...)
 	if err != nil {
 		return err
 	}
 
 	//服务配置初始化
-	err = setting.ReadSection("Server", &global.ServerSetting)
+	err = s.ReadSection("Server", &global.ServerSetting)
 	if err != nil {
 		return err
 	}
 
 	//应用配置初始化
-	err = setting.ReadSection("App", &global.AppSetting)
+	err = s.ReadSection("App", &global.AppSetting)
 	if err != nil {
 		return err
 	}
 
 	//数据库配置初始化
-	err = setting.ReadSection("Database", &global.DatabaseSetting)
+	err = s.ReadSection("Database", &global.DatabaseSetting)
 	if err != nil {
 		return err
 	}
 
 	//鉴权配置初始化
-	err = setting.ReadSection("JWT", &global.JWTSetting)
+	err = s.ReadSection("JWT", &global.JWTSetting)
 	if err != nil {
 		return err
 	}
 
 	//邮箱配置初始化
-	err = setting.ReadSection("Email", &global.EmailSetting)
+	err = s.ReadSection("Email", &global.EmailSetting)
 	if err != nil {
 		return err
 	}
 
+	if port != "" {
+		global.ServerSetting.HttpPort = port
+	}
+	if runMode != "" {
+		global.ServerSetting.RunMode = runMode
+	}
 	global.JWTSetting.Expire *= time.Second
 	global.ServerSetting.ReadTimeout *= time.Second
 	global.ServerSetting.WriteTimeout *= time.Second
