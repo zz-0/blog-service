@@ -1,6 +1,8 @@
 package setting
 
-import "github.com/spf13/viper"
+import (
+	"github.com/spf13/viper"
+)
 
 //此模块作用是对服务端的配置进行设置
 
@@ -10,11 +12,17 @@ type Setting struct {
 }
 
 //初始化本项目的配置的基础属性
-func NewSetting() (*Setting, error) {
+func NewSetting(configs ...string) (*Setting, error) {
 	vp := viper.New()
 
 	//1.读取设定配置文件的名称为config
 	vp.SetConfigName("config")
+
+	for _, config := range configs {
+		if config != "" {
+			vp.AddConfigPath(config)
+		}
+	}
 
 	//2.添加读取设置其配置路径相对路径为configs/   注:viper是支持配置多个路径的
 	vp.AddConfigPath("configs/")
@@ -27,9 +35,3 @@ func NewSetting() (*Setting, error) {
 	}
 	return &Setting{vp}, nil
 }
-
-
-
- 
-
-  
